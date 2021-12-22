@@ -1,7 +1,3 @@
-<style
-   type="stylesheet/css" href="/style.css">
-</style>
-         
 my portfolio
 ## christian kessler
 ### front end developer
