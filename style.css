@@ -17,16 +17,14 @@
   --white2: #fff
 }
 
-.dark
-{
+.dark {
   --black: #fff;
   --black2: #444;
   --white: #333;
   --white2: #444;
 }
 
-body
-{
+.body {
   overflow-x:hidden;
 }
 
@@ -34,14 +32,12 @@ body
   background: #444;
 }
 
-.container
-{
+.container {
   position: relative;
   width: 100%;
 }
 
-.navigation
-{
+.navigation {
   position: fixed;
   width: 300px;
   height: 100%;
@@ -54,19 +50,16 @@ body
   transition: width 0.5s, left 0.5s;
 }
 
-.dark .navigation
-{
+.navigation {
   border-right: 1px solid rgba(0,0,0,0.5);
 }
 
-.navigation.active
-{
+.navigation.active {
   width: 0;
 }
 
-.navigation ul
-{
-  position: relative;
+.navigation ul {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
