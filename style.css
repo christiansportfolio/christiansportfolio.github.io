@@ -30,7 +30,7 @@ body
   overflow-x:hidden;
 }
 
- body.dark{
+ body {
   background: #444;
 }
 
